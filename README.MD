@@ -1,3 +1,3 @@
 # NEXT WORD RECOMMENDER SYSTEM
-- USED PREVIOUS TWO WORDS TO PREDICT NEXT WORD FROM GIVEN CORPUS
-- WORD WITH MAXIMUM PROBABILITY TO OCCUR GIVEN THE PREVIOUS TWO WORDS AND HAVING MAXIUMUM PROBABILITY IN THE CORPUS IS SELECTED
+- Used a dictionary with trigrams where the first two words are make key and list of third words as value. Given the two previous words new word is selected from dictionary based on random choice and probability of word in corpus.
+Used - Python, pandas
